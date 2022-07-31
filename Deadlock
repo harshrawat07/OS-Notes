@@ -1,0 +1,17 @@
+Every process needs some resources, so for these resourse the process requesting to operating system.
+There two kind of resouces first is shareable and second one is non-shareable.
+it's operating system's duty to assign rescurces to each process in a proper manner. By proper manner we mean that if resources are not sharable then they should assign to only one process.
+Necessary conditions for deadlock : 
+a) Mututal Exclusion (Means resources are not shareble)
+b) Hold and Wait (p1 holds r1 and wait for r2  and at same time p2 holds r2 and wait for r1)
+c) No premption ( Resource Premption :- If operating system assign a resource to a process now this resource can not be taken back until the preocess will complete)
+d) Circular Wait (Samne as explain in hold and wait, Resource Allocation)
+All these four conditions are necessary for deadlock. If you can't fullfil even a single condition there can't be deadlock.
+There can be multiple instance of one type of resources. 
+
+Deadlock Handling:
+1) Deadlock Prevention :- To ensure to not geeting any request that can cause a deadlock
+2) Deadlock Aviodance :- Before accept the request make sure the can't be cause a deadlock
+3) Detection and Recovery :- Check is deadlock happens or not if deadlock then recover this
+4) Ignore the deadlock :- The idea is that if deadlock is very infrequent and it requires very costly method for prevention, avoid or recvoery then ignore it.
+Most populor approach is ignorance but mostly the used a mixed approach.
