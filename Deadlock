@@ -24,3 +24,10 @@ Deadlock Prevention:
 4) Cirucal Wait - Numbring the resources and then make rule that all preocess in increasing order. For example if a preocss hold resource 4 then it can only request of higher no. resorces.
 
 Deadlock Avoidence: Banker's Algorithm, impractical to declare maximum need in advance. 
+When system in safe state that mean there will be no deadlock, but when it's in unsafe state there is no gurantee that deadlock must be happan, but there are posibiliy of deadlock. It may possible that syatem is in unsafe state and there will no deadlock occurs. 
+
+Deadlock Detection and Recovery : Graph method 
+Detection :- Here we use resource allotment graph. If resourse allotment graph has a cycle and all resources are single instance resources that mean there is a deadlock.
+This algorighm doesn't work where multiple instances of resources because there cycel is not the gurantee of deadlock.
+For multiple instance we again use banker's algorithm with slight difference. 
+Recovery :- Two methods - 1) Kill Process 2) Prempt Resource
