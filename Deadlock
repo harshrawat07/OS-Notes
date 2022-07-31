@@ -15,3 +15,12 @@ Deadlock Handling:
 3) Detection and Recovery :- Check is deadlock happens or not if deadlock then recover this
 4) Ignore the deadlock :- The idea is that if deadlock is very infrequent and it requires very costly method for prevention, avoid or recvoery then ignore it.
 Most populor approach is ignorance but mostly the used a mixed approach.
+
+Deadlock Prevention:
+4 technique eliminate for 4 necessary condtion.
+1) Mututal Exclusion - Spooling (Make job queue for resource, not a fullfree solution bcz job queue might be full)
+2) Hold and Wait - Two ways first one to inform in advance but impractical, 2nd one in preocess must realse all resources before requesting 
+3) No premption - Elimanting No premption but impractical 
+4) Cirucal Wait - Numbring the resources and then make rule that all preocess in increasing order. For example if a preocss hold resource 4 then it can only request of higher no. resorces.
+
+Deadlock Avoidence: Banker's Algorithm, impractical to declare maximum need in advance. 
