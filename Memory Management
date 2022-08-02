@@ -1,0 +1,17 @@
+From memory our accepations are:
+a) Low access time b) High Capacity c)Low cost
+Keep Lowest access time memory near to cpu
+
+Address Binding :- Mapping of relocatable address to physical address.
+Compile time address binding, load time binding, RunTime binding  (check on internet for more details) 
+Runtime Binding: In runtime binding address that takes for cpu are logical address and then at runtime that replace by physical address.
+Replace is done by using limit register or realocation register. 
+
+Evalution of memory management :-
+Single tasking system , multitasking system
+Memory allocation in multitasking: 
+static :- a)Equal Size b) Unequal Size
+bynamice: a) Contihous b) Non-contiguous 
+Non contigeous: 1) paging 2)segmentation 3) paging with segmentation 
+Extrenal Fragmentation :- When there are sufficient memory but in differnt junks
+Internal Fragmentation :- Whem more memory is allocated than needed. Internal fragmentation is the cause of external fragmentation.
