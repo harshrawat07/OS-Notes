@@ -11,7 +11,8 @@ Evalution of memory management :-
 Single tasking system , multitasking system
 Memory allocation in multitasking: 
 static :- a)Equal Size b) Unequal Size
-bynamice: a) Contihous b) Non-contiguous 
+dynamice: a) Contihous b) Non-contiguous 
 Non contigeous: 1) paging 2)segmentation 3) paging with segmentation 
 Extrenal Fragmentation :- When there are sufficient memory but in differnt junks
 Internal Fragmentation :- Whem more memory is allocated than needed. Internal fragmentation is the cause of external fragmentation.
+Two ways to manage holes dynamic partitioning :- a)bitmap (required lots of unit) b) Linked list 
