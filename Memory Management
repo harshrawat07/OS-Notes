@@ -16,3 +16,9 @@ Non contigeous: 1) paging 2)segmentation 3) paging with segmentation
 Extrenal Fragmentation :- When there are sufficient memory but in differnt junks
 Internal Fragmentation :- Whem more memory is allocated than needed. Internal fragmentation is the cause of external fragmentation.
 Two ways to manage holes dynamic partitioning :- a)bitmap (required lots of unit) b) Linked list 
+TLB
+Demand Paging
+Thrashing 
+Page replacement algorithms 
+Segmentation: Alternate of Paging where a process is divided into related group according to user's view. It use for both ideas where paging is used noncontigious allocation and virtual memory. 
+Segmentation with paging 
